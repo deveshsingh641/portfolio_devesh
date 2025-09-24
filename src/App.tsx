@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { Mail, Phone, Github, Linkedin, ExternalLink, Menu, X, Code, Database, Globe, Server, Layers, Brain, FileText, Award, GraduationCap } from 'lucide-react';
 import { Helmet } from 'react-helmet';
 
@@ -27,7 +27,7 @@ function App() {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  const scrollToSection = (sectionId) => {
+  const scrollToSection = (sectionId: string) => {
     const element = document.getElementById(sectionId);
     if (element) {
       element.scrollIntoView({ behavior: 'smooth' });
@@ -98,7 +98,7 @@ function App() {
     <div className="min-h-screen bg-gray-50 font-sans">
       <Helmet>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet" />
         <style>{`
           body { font-family: 'Lato', sans-serif; }
