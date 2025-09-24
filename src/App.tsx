@@ -243,11 +243,12 @@ function App() {
                 </div>
               </div>
               <div className="order-1 md:order-2">
-                <img
-                  src="src\WhatsApp Image 2024-09-06 at 23.26.47_3cffa012.jpg"
-                  alt="Professional headshot"
-                  className="rounded-lg shadow-lg w-full max-w-md mx-auto"
-                />
+               <img
+  src="/WhatsApp Image 2024-09-06 at 23.26.47_3cffa012.jpg"
+  alt="Professional headshot"
+  className="rounded-lg shadow-lg w-full max-w-md mx-auto"
+/>
+
               </div>
             </div>
           </div>
